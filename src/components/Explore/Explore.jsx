@@ -7,11 +7,11 @@ const Explore = () => {
       <div className="explore-section">
             <div className="splitter">
                 <div className="roles">
-                    <p>Discover your role.</p>
+                    <p>Discover your role and step into a position that truly fits you. Uncover the perfect match for your skills and ambitions.</p>
                     <button className='role-button'>Roles</button>
                 </div>
                 <div className="skills">
-                    <p>Sharpen your skills</p>
+                    <p>Sharpen your skills and stay ahead in your field. Invest in continuous learning to enhance your expertise and achieve excellence.</p>
                     <button className='skill-button'>Skills</button>
                 </div>
             </div>
