@@ -1,0 +1,50 @@
+.explore-section {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splitter {
+  display: flex;
+  gap: 60px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.explore-heading {
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.roles,
+.skills {
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #666666;
+  color: black;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.role-button,
+.skill-button {
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 35px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.role-button:hover,
+.skill-button:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
