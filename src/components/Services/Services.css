@@ -1,0 +1,62 @@
+.services-section {
+  width: 100%;
+  height: 80vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around; /* Center and evenly distribute columns */
+  align-items: center;
+}
+
+.service-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%; /* Full width to spread evenly */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col1,
+.col2,
+.col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%; /* Adjust the width to fit within the container */
+  padding: 20px;
+  background-color: #fff; /* Optional: background color for visibility */
+  border: 1px solid #ddd; /* Optional: border for visibility */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.heading1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.heading1-content {
+  font-size: 30px;
+}
+
+.col2-heading1,
+.col2-heading2,
+.col3-heading1,
+.col3-heading2 {
+  width: 100%; /* Ensure headings take full width */
+  height: auto;
+  font-size: 40px;
+  text-align: start; /* Center text */
+}
+
+.col2,
+.col3 {
+  gap: 40px;
+}
+
+.col2-content1,
+.col2-content2,
+.col3-content1,
+.col3-content2 {
+  font-size: 25px;
+  text-align: start; /* Center text */
+}
