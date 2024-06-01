@@ -1,0 +1,51 @@
+.cta-section {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  margin-top: 50px;
+  background-color: red;
+}
+.cta-content {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-top: 5%;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.cta-heading {
+  margin-top: 4%;
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.cta-description {
+  margin-top: 2%;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.cta-buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 2%;
+  padding-left: 10px;
+}
+.sign-up,
+.learn-more {
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.sign-up:hover,
+.learn-more:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}

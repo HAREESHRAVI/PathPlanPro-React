@@ -5,7 +5,8 @@ import Explore from '../components/Explore/Explore'
 import Features from '../components/Features/Features'
 import Mission from '../components/Mission/Mission'
 import Services from '../components/Services/Services'
-import Testmonials from '../components/Testimonials/Testimonials'
+import Testimonials from '../components/Testimonials/Testimonials'
+import CTA from '../components/CTA/CTA'
 const Home = () => {
   return (
     <>
@@ -15,7 +16,8 @@ const Home = () => {
     <Features/>
     <Mission/>
     <Services/>
-    <Testmonials/>
+    <Testimonials/>
+    <CTA/>
     </>
   )
 }
