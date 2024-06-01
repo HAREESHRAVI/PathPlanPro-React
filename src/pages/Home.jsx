@@ -7,6 +7,7 @@ import Mission from '../components/Mission/Mission'
 import Services from '../components/Services/Services'
 import Testimonials from '../components/Testimonials/Testimonials'
 import CTA from '../components/CTA/CTA'
+import Footer from '../components/Footer/Footer'
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
     <Services/>
     <Testimonials/>
     <CTA/>
+    <Footer/>
     </>
   )
 }

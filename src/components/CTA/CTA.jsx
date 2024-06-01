@@ -3,7 +3,7 @@ import './CTA.css'
 const CTA = () => {
   return (
     <>
-    <div className="cta-section">
+    <div className="cta">
       <div className="cta-content">
         <div className="cta-heading">Unlock Your IT Career Potential</div>
         <div className="cta-description">Discover the Roadmaps to Mastering New Technologies and Skills</div>
