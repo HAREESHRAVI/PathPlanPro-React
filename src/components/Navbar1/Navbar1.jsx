@@ -4,7 +4,7 @@ import logo from '../../assets/images/ppplogo.png'
 const Navbar1 = () => {
   return (
     <>
-    <div className="navbar">
+    <div className="navbar1">
         <div className='navbar-left'> 
             <img src={logo} alt="navbar logo" className="navbar-logo" />
             <h1>PathPlanPro</h1>

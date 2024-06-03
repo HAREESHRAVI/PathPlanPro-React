@@ -1,12 +1,9 @@
-.navbar {
+.navbar1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
-  position: absolute;
   width: 100%;
   top: 0;
-  z-index: 2;
   background-color: #131a22;
   color: #f2f2f2;
 }
