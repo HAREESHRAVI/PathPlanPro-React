@@ -1,0 +1,32 @@
+.Aboutus {
+  width: 95%;
+  height: 50vh;
+  background-color: #999999;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Aboutus-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.vision-heading {
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 60px;
+}
+.vision-content {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 40px;
+  line-height: 1.5;
+}
